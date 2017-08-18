@@ -102,7 +102,7 @@
                 </intent-filter>
             </activity>
             <!--微信分享回调 WXEntryActivity是相对路径，所以需要获取当前项目的包名，动态copy到指定目录。通过cordova的hook完成-->
-            <activity android:name=".wxapi.WXEntryActivity2" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:screenOrientation="portrait" />
+            <activity android:name=".wxapi.WXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:screenOrientation="portrait" />
         </config-file>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ShareSDK">
